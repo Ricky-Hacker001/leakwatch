@@ -1,0 +1,4 @@
+tests/
+.github/
+LAUNCH_STRATEGY.md
+*.gif

@@ -1,0 +1,21 @@
+{
+  "name": "leakwatch",
+  "version": "0.1.0",
+  "description": "CLI pre-push secret & PII scanner. Catches API keys, Aadhaar, UPI, PAN and 30+ patterns before they hit GitHub.",
+  "main": "src/index.js",
+  "bin": {
+    "leakwatch": "./bin/leakwatch.js"
+  },
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "keywords": ["security","secrets","pii","git","pre-push","aadhaar","upi","api-keys","devtools","india"],
+  "author": "Ricky <ricky.nuetrex@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "glob": "^8.1.0",
+    "ignore": "^5.3.0"
+  },
+  "engines": { "node": ">=16.0.0" }
+}
