@@ -19,7 +19,7 @@ function printBanner() {
   console.log(chalk.bold("  ███████╗███████╗██║  ██║██║  ██╗╚███╔███╔╝██║  ██║   ██║   ╚██████╗██║  ██║"));
   console.log(chalk.bold("  ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚══╝╚══╝ ╚═╝  ╚═╝   ╚═╝    ╚═════╝╚═╝  ╚═╝"));
   console.log("");
-  console.log(chalk.gray("  Pre-push secret & PII scanner — github.com/yourusername/leakwatch"));
+  console.log(chalk.gray("  Pre-push secret & PII scanner"));
   console.log("");
 }
 
